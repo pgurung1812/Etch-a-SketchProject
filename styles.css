@@ -1,0 +1,30 @@
+#container{
+    box-sizing: border-box;
+    border: 2px solid firebrick;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    width:804px;
+   
+    
+    
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.square{
+ box-sizing: border-box;
+ border: .1px solid blue;
+ /* flex: 1; */
+ height: 50px;
+ width: 50px; 
+  
+}
+
